@@ -73,7 +73,7 @@ AudioMixerController:
   - guid: ea90e92740d7f5146a79e6e93f719b16
     name: Music
   - guid: d004352646b14024784be3725c84fe2e
-    name: MyExposedParam 1
+    name: SFX
   m_AudioMixerGroupViews:
   - guids:
     - f1d75a94d8ac43241ad499f4c35b08c5

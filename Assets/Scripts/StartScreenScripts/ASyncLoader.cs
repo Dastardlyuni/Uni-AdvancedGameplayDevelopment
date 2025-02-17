@@ -11,7 +11,7 @@ public class ASyncLoader : MonoBehaviour
     [Header("Load bar")]
     [SerializeField] private Slider loadingSlider;
     
-    //Start from new
+
     public void LoadLevelButton(string levelBeingLoaded)
     {
         startCanvas.SetActive(false);
