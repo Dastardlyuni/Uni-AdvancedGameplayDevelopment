@@ -8,6 +8,7 @@ public class PauseScreen : MonoBehaviour
     public bool gameIsPaused;
     public CharacterController controller;
     public GameObject PauseScreenUI;
+    public GameObject OptionsCanvas;
     // Start is called before the first frame update
     void Start()
     {
@@ -39,6 +40,7 @@ public class PauseScreen : MonoBehaviour
         {
             Debug.Log("Unpaused");
             PauseScreenUI.SetActive(false);
+            OptionsCanvas.SetActive(false);
             controller.enabled = true;
             Time.timeScale = 1;
             Camera.main.gameObject.SetActive(false);
